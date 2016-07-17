@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class BidEntity
+    public class BidEntity
     {
         public int BidId { get; set; }
         public int BidAmount { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class PictureEntity
+    public class PictureEntity
     {
         public int PictureId { get; set; }
         public string PictureLocation { get; set; }

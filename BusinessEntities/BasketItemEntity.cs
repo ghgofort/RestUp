@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class BasketItemEntity
+    public class BasketItemEntity
     {
         public int BasketItemId { get; set; }
         public string ItemName { get; set; }

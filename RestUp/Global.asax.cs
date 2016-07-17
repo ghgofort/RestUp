@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
+using BusinessServices;
 
 namespace RestUp
 {
@@ -11,7 +12,7 @@ namespace RestUp
     {
         protected void Application_Start()
         {
-            GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configure(WebApiConfig.Register);;
         }
     }
 }
