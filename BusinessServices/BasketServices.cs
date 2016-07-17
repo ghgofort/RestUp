@@ -12,7 +12,7 @@ namespace BusinessServices
     /// <summary>
     /// Class for querying the DAL for Basket specific CRUD operations
     /// </summary>
-    class BasketServices : IBasketServices
+    public class BasketServices : IBasketServices
     {
         private readonly UnitOfWork _unitOfWork;
         /// <summary>

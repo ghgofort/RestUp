@@ -6,7 +6,7 @@ namespace BusinessServices
     /// <summary>
     /// Contract for Basket Services from API
     /// </summary>
-    interface IBasketServices
+    public interface IBasketServices
     {
         BasketEntity GetBasketById(int basketId);
         IEnumerable<BasketEntity> GetBasketList();

@@ -8,9 +8,9 @@ using DataEntities;
 namespace BusinessServices
 {
     
-    class InitMapInBusinessServices
+    public class InitMapInBusinessServices
     {
-        static void Init()
+        public static void Init()
         {
             Mapper.Initialize(cfg =>
             {
