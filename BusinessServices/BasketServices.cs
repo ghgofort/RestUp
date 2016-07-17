@@ -18,9 +18,9 @@ namespace BusinessServices
         /// <summary>
         /// Public Constructor
         /// </summary>
-        public BasketServices()
+        public BasketServices(UnitOfWork unitOfWork)
         {
-            _unitOfWork = new UnitOfWork();
+            _unitOfWork = unitOfWork;
         }
 
         /// <summary>

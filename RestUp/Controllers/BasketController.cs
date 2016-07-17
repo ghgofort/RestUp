@@ -15,9 +15,9 @@ namespace RestUp.Controllers
         /// <summary>
         /// Public constructor to create an instance of our product service
         /// </summary>
-        public BasketController()
+        public BasketController(IBasketServices basketServices)
         {
-            _basketServices = new BasketServices();
+            _basketServices = basketServices;
         }
         #endregion
 
