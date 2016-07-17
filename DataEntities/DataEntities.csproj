@@ -43,6 +43,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -68,6 +69,7 @@
     <Compile Include="Bid.cs">
       <DependentUpon>SAEntityDataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DependencyResolver.cs" />
     <Compile Include="GenericRepository\GenericRepository.cs" />
     <Compile Include="Picture.cs">
       <DependentUpon>SAEntityDataModel.tt</DependentUpon>
@@ -91,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
     <None Include="packages.config" />
     <EntityDeploy Include="SAEntityDataModel.edmx">
@@ -115,6 +118,12 @@
       <DependentUpon>SAEntityDataModel.edmx</DependentUpon>
       <LastGenOutput>SAEntityDataModel.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Resolver\Resolver.csproj">
+      <Project>{08050ea5-8bf5-4e46-aa4c-9dba0e693f83}</Project>
+      <Name>Resolver</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

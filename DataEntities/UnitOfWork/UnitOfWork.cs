@@ -13,7 +13,7 @@ namespace DataEntities.UnitOfWork
     /// <summary>  
     /// Unit of Work class responsible for DB transactions  
     /// </summary>  
-    public class UnitOfWork : IDisposable
+    public class UnitOfWork : IUnitOfWork
     {
         #region Private member variables...  
 
@@ -146,6 +146,11 @@ namespace DataEntities.UnitOfWork
         {
             Dispose(true);
             GC.SuppressFinalize(this);
+        }
+
+        public void save()
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

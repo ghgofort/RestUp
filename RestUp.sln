@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		DBScripts\PopulateTables.sql = DBScripts\PopulateTables.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resolver", "Resolver\Resolver.csproj", "{08050EA5-8BF5-4E46-AA4C-9DBA0E693F83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{71F504F0-9073-4204-8F30-6371D9A6D451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F504F0-9073-4204-8F30-6371D9A6D451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F504F0-9073-4204-8F30-6371D9A6D451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08050EA5-8BF5-4E46-AA4C-9DBA0E693F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08050EA5-8BF5-4E46-AA4C-9DBA0E693F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08050EA5-8BF5-4E46-AA4C-9DBA0E693F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08050EA5-8BF5-4E46-AA4C-9DBA0E693F83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

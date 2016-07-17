@@ -59,6 +59,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Transactions">
@@ -74,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasketServices.cs" />
+    <Compile Include="DependencyResolver.cs" />
     <Compile Include="IBasketServices.cs" />
     <Compile Include="InitMapInBusinessServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +88,10 @@
     <ProjectReference Include="..\DataEntities\DataEntities.csproj">
       <Project>{d9e65c38-3659-4505-8a00-61a1ffc3cca8}</Project>
       <Name>DataEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resolver\Resolver.csproj">
+      <Project>{08050ea5-8bf5-4e46-aa4c-9dba0e693f83}</Project>
+      <Name>Resolver</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

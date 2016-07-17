@@ -274,6 +274,10 @@
       <Project>{D9E65C38-3659-4505-8A00-61A1FFC3CCA8}</Project>
       <Name>DataEntities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Resolver\Resolver.csproj">
+      <Project>{08050ea5-8bf5-4e46-aa4c-9dba0e693f83}</Project>
+      <Name>Resolver</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

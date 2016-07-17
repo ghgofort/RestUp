@@ -8,10 +8,7 @@
 //------------------------------------------------------------------------------
 
 namespace DataEntities
-{
-    using System;
-    using System.Collections.Generic;
-    
+{    
     public partial class Picture
     {
         public int PictureId { get; set; }
