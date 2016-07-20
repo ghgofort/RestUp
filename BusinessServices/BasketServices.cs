@@ -1,5 +1,4 @@
-﻿using System;
-using System.Transactions;
+﻿using System.Transactions;
 using System.Collections.Generic;
 using BusinessEntities;
 using DataEntities;
@@ -10,7 +9,7 @@ using System.Linq;
 namespace BusinessServices
 {
     /// <summary>
-    /// Class for querying the DAL for Basket specific CRUD operations
+    /// Class for querying the DAL for BasketItem specific CRUD operations
     /// </summary>
     public class BasketServices : IBasketServices
     {
@@ -103,7 +102,6 @@ namespace BusinessServices
                 return basketsModel;
             }
             return null;
-
         }
 
         /// <summary>

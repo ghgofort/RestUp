@@ -74,10 +74,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasketItemServices.cs" />
     <Compile Include="BasketServices.cs" />
+    <Compile Include="BidServices.cs" />
     <Compile Include="DependencyResolver.cs" />
+    <Compile Include="IBasketItemServices.cs" />
     <Compile Include="IBasketServices.cs" />
+    <Compile Include="IBidServices.cs" />
     <Compile Include="InitMapInBusinessServices.cs" />
+    <Compile Include="IPictureServices.cs" />
+    <Compile Include="PictureServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
